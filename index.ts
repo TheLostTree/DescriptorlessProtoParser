@@ -27,7 +27,7 @@ function parseProto(buf: Buffer): object{
                 // let len = reader.uint32();
                 let subBuf = Buffer.from(reader.bytes());
                 // obj["field" + fieldId] = parseProtoIsh(subBuf);
-                obj["field " + fieldId] = subBuf.toString("base64");
+                obj["field " + fieldId] = subBuf.toString("utf-8");
 
                 break;
             case 5:
