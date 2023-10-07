@@ -1,0 +1,17 @@
+{
+  "name": "descriptorlessprotoparse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc index.ts --outDir build --esModuleInterop"
+  },
+  "author": "TheLostTree",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.8.3"
+  },
+  "dependencies": {
+    "protobufjs": "^7.2.5"
+  }
+}
